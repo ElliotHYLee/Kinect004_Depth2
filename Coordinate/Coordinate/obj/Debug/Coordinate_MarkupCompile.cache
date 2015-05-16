@@ -4,12 +4,20 @@
 exe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\Hongyun\Documents\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Debug\
+=======
+D:\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Debug\
+>>>>>>> origin/master
 Coordinate
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 C:\Users\Hongyun\Documents\GitHub\Kinect004_Depth2\Coordinate\Coordinate\App.xaml
+=======
+D:\GitHub\Kinect004_Depth2\Coordinate\Coordinate\App.xaml
+>>>>>>> origin/master
 11151548125
 
 5-2017746502

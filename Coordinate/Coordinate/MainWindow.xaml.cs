@@ -25,7 +25,6 @@ namespace Coordinate
         {
             InitializeComponent();
             InitializeNui();
-
         }
 
         KinectSensor nui = null;
@@ -94,8 +93,6 @@ namespace Coordinate
                 }
             }
         }
-
-        
 
         private void btn1_Click(object sender, RoutedEventArgs e)
         {

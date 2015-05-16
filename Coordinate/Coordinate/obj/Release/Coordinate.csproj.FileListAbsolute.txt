@@ -1,0 +1,13 @@
+D:\GitHub\Kinect004_Depth2\Coordinate\Coordinate\bin\Release\Coordinate.exe.config
+D:\GitHub\Kinect004_Depth2\Coordinate\Coordinate\bin\Release\Coordinate.exe
+D:\GitHub\Kinect004_Depth2\Coordinate\Coordinate\bin\Release\Coordinate.pdb
+D:\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\Coordinate.csprojResolveAssemblyReference.cache
+D:\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\MainWindow.baml
+D:\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\MainWindow.g.cs
+D:\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\App.g.cs
+D:\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\Coordinate_MarkupCompile.cache
+D:\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\Coordinate.g.resources
+D:\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\Coordinate.Properties.Resources.resources
+D:\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\Coordinate.csproj.GenerateResource.Cache
+D:\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\Coordinate.exe
+D:\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\Coordinate.pdb
