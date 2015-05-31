@@ -11,3 +11,16 @@ D:\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\Coordinate.Properti
 D:\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\Coordinate.csproj.GenerateResource.Cache
 D:\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\Coordinate.exe
 D:\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\Coordinate.pdb
+C:\Users\Hongyun\Documents\GitHub\Kinect004_Depth2\Coordinate\Coordinate\bin\Release\Coordinate.exe.config
+C:\Users\Hongyun\Documents\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\Coordinate.exe
+C:\Users\Hongyun\Documents\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\Coordinate.pdb
+C:\Users\Hongyun\Documents\GitHub\Kinect004_Depth2\Coordinate\Coordinate\bin\Release\Coordinate.exe
+C:\Users\Hongyun\Documents\GitHub\Kinect004_Depth2\Coordinate\Coordinate\bin\Release\Coordinate.pdb
+C:\Users\Hongyun\Documents\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\Coordinate.csprojResolveAssemblyReference.cache
+C:\Users\Hongyun\Documents\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\MainWindow.baml
+C:\Users\Hongyun\Documents\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\MainWindow.g.cs
+C:\Users\Hongyun\Documents\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\App.g.cs
+C:\Users\Hongyun\Documents\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\Coordinate_MarkupCompile.cache
+C:\Users\Hongyun\Documents\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\Coordinate.g.resources
+C:\Users\Hongyun\Documents\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\Coordinate.Properties.Resources.resources
+C:\Users\Hongyun\Documents\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\Coordinate.csproj.GenerateResource.Cache

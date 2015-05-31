@@ -5,7 +5,7 @@
     <Grid>
         <TextBlock Name="textBlock1" HorizontalAlignment="Left" Height="157" Margin="108,600,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="838" FontSize="48"/>
         <Image Name="image1" HorizontalAlignment="Left" Height="480" VerticalAlignment="Top" Width="620" Margin="78,40,0,0"/>
-        <Button Name="btn1" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="108,555,0,0" Click="btn1_Click"/>
+        <Button Name="btn1" Content="Start" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="108,555,0,0" Click="btn1_Click"/>
         <Canvas HorizontalAlignment="Left" Height="480" VerticalAlignment="Top" Width="620" Margin="78,40,0,0">
             <Ellipse Name="ellipse1" Height="84" Canvas.Left="94" Stroke="Black" Canvas.Top="92" Width="84"/>
 
