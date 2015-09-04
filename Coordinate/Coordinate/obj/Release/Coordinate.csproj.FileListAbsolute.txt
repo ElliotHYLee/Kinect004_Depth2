@@ -24,3 +24,5 @@ C:\Users\Hongyun\Documents\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Rel
 C:\Users\Hongyun\Documents\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\Coordinate.g.resources
 C:\Users\Hongyun\Documents\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\Coordinate.Properties.Resources.resources
 C:\Users\Hongyun\Documents\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Release\Coordinate.csproj.GenerateResource.Cache
+D:\GitHub\Kinect004_Depth2\Coordinate\Coordinate\bin\Release\Microsoft.Kinect.dll
+D:\GitHub\Kinect004_Depth2\Coordinate\Coordinate\bin\Release\Microsoft.Kinect.xml
