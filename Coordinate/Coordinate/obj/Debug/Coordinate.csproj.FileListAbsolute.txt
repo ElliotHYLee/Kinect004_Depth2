@@ -24,3 +24,5 @@ C:\Users\Hongyun\Documents\GitHub\Kinect004_Depth2\Coordinate\Coordinate\bin\Deb
 C:\Users\Hongyun\Documents\GitHub\Kinect004_Depth2\Coordinate\Coordinate\bin\Debug\Coordinate.pdb
 C:\Users\Hongyun\Documents\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Debug\Coordinate.exe
 C:\Users\Hongyun\Documents\GitHub\Kinect004_Depth2\Coordinate\Coordinate\obj\Debug\Coordinate.pdb
+D:\GitHub\Kinect004_Depth2\Coordinate\Coordinate\bin\Debug\Microsoft.Kinect.dll
+D:\GitHub\Kinect004_Depth2\Coordinate\Coordinate\bin\Debug\Microsoft.Kinect.xml
