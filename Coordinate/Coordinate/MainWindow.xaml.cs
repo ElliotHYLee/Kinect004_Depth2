@@ -94,21 +94,46 @@ namespace Coordinate
                                 //Console.WriteLine("im here3");
                                 
                                 //prepare joint
-                                Joint joint = sd.Joints[JointType.HandLeft];
-                                
+                                Joint leftHand = sd.Joints[JointType.HandLeft];
+                                Joint rightHand = sd.Joints[JointType.HandRight];
+                                Joint shoulderCenter = sd.Joints[JointType.Spine];
+
+
                                 // a skelton's depth
-                                DepthImagePoint depthPoint;
-                                depthPoint = depthImagePara.MapFromSkeletonPoint(joint.Position);
-                                
+                                DepthImagePoint depthPointLeftHand, depthPointRightHand, depthPointShoulderCenter;
+                                depthPointLeftHand = depthImagePara.MapFromSkeletonPoint(leftHand.Position);
+                                depthPointRightHand = depthImagePara.MapFromSkeletonPoint(rightHand.Position);
+                                depthPointShoulderCenter = depthImagePara.MapFromSkeletonPoint(shoulderCenter.Position);
+
                                 // skeleton's x,y position
-                                Point point = new Point( (int) (image1.Width *depthPoint.X/depthImagePara.Width), (int)(image1.Height *depthPoint.Y/depthImagePara.Height));
-                                
+                                Point pointLeftHand = new Point( (int) (image1.Width *depthPointLeftHand.X/depthImagePara.Width), (int)(image1.Height *depthPointLeftHand.Y/depthImagePara.Height));
+                                Point pointRightHand = new Point((int)(image1.Width * depthPointRightHand.X / depthImagePara.Width), (int)(image1.Height * depthPointRightHand.Y / depthImagePara.Height));
+                                Point pointShoulderCenter = new Point((int)(image1.Width * depthPointShoulderCenter.X / depthImagePara.Width), (int)(image1.Height * depthPointShoulderCenter.Y / depthImagePara.Height));
+
                                 //  update textblock
-                                textBlock1.Text = string.Format("X:{0:0.00} Y:{1:0.00} Z:{2:0.00}m", point.X, point.Y, joint.Position.Z);
-                                
+                                txtLeftHand.Text = string.Format("X:{0:0.00} Y:{1:0.00} Z:{2:0.00}m", leftHand.Position.X, leftHand.Position.Y, leftHand.Position.Z);
+                                txtRightHand.Text = string.Format("X:{0:0.00} Y:{1:0.00} Z:{2:0.00}m", rightHand.Position.X, rightHand.Position.Y, rightHand.Position.Z);
+                                txtBody.Text = string.Format("X:{0:0.00} Y:{1:0.00} Z:{2:0.00}m", shoulderCenter.Position.X, shoulderCenter.Position.Y, shoulderCenter.Position.Z);
+
+                                // update auxiliary textblock
+                                txtDelta.Text = string.Format("X:{0:0.00} Y:{1:0.00} Z:{2:0.00}m", leftHand.Position.X-shoulderCenter.Position.X, leftHand.Position.Y-shoulderCenter.Position.Y, leftHand.Position.Z-shoulderCenter.Position.Z);
+
+
+                                // calculate and update distance
+
+
+
+
                                 // update circle's position
-                                Canvas.SetLeft(ellipse1, point.X - ellipse1.Width / 2);
-                                Canvas.SetTop(ellipse1, point.Y - ellipse1.Height / 2);
+                                Canvas.SetLeft(ellipseLeftHand, pointLeftHand.X - ellipseLeftHand.Width / 2);
+                                Canvas.SetTop(ellipseLeftHand, pointLeftHand.Y - ellipseLeftHand.Height / 2);
+
+                                Canvas.SetLeft(ellipseRightHand, pointRightHand.X - ellipseRightHand.Width / 2);
+                                Canvas.SetTop(ellipseRightHand, pointRightHand.Y - ellipseRightHand.Height / 2);
+
+                                Canvas.SetLeft(ellipseBody, pointShoulderCenter.X - ellipseBody.Width / 2);
+                                Canvas.SetTop(ellipseBody, pointShoulderCenter.Y - ellipseBody.Height / 2);
+
                             }
                         }
                     }
