@@ -5,7 +5,7 @@
     <Grid Margin="0,0,2,0">
         <TextBlock Name="txtLeftHand" HorizontalAlignment="Left" Height="75" Margin="172,600,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="586" FontSize="48"/>
         <Image Name="image1" HorizontalAlignment="Left" Height="480" VerticalAlignment="Top" Width="620" Margin="78,40,0,0"/>
-        <Button Name="btn1" Content="Start" HorizontalAlignment="Left" VerticalAlignment="Top" Width="131" Margin="98,525,0,0" Click="btn1_Click" Height="45"/>
+        <Button Name="btn1" Content="Start" HorizontalAlignment="Left" VerticalAlignment="Top" Width="131" Margin="790,154,0,0" Click="btn1_Click" Height="45"/>
         <Canvas HorizontalAlignment="Left" Height="480" VerticalAlignment="Top" Width="680"  Margin="78,40,0,0">
             <Ellipse Name="ellipseLeftHand" Height="60" Canvas.Left="94" Stroke="Black" Canvas.Top="92" Width="60"/>
             <Ellipse Name="ellipseRightHand" Height="60" Canvas.Left="183" Stroke="Black" Canvas.Top="92" Width="60"/>
@@ -19,6 +19,13 @@
         <Label Name="label_Copy1" Content="Body" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,768,0,0" Height="123" Width="136"/>
         <TextBlock Name="txtDelta" HorizontalAlignment="Left" Height="75" Margin="916,63,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="586" FontSize="48"/>
         <Label x:Name="label_Copy2" Content="Diff" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="758,58,0,0" Height="123" Width="127"/>
+        <TextBlock x:Name="txtDistanceLeftHand" HorizontalAlignment="Left" Height="75" Margin="790,600,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="606" FontSize="48"/>
+        <Label x:Name="label_Copy3" Content="Distance" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="790,508,0,0" Height="71" Width="189"/>
+        <Label x:Name="label_Copy4" Content="Coordinates" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,508,0,0" Height="71" Width="281"/>
+        <TextBlock x:Name="txtDistanceRightHand" HorizontalAlignment="Left" Height="75" Margin="790,680,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="606" FontSize="48"/>
+        <TextBlock x:Name="txtDistanceBody" HorizontalAlignment="Left" Height="75" Margin="790,768,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="606" FontSize="48"/>
+        <Label x:Name="label_Copy5" Content="Distance L-R" FontSize="48" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="758,248,0,0" Height="71" Width="305"/>
+        <TextBlock x:Name="txtDistanceL2R" HorizontalAlignment="Left" Height="75" Margin="758,324,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="606" FontSize="48"/>
 
 
 
