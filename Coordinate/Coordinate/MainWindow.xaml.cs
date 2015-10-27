@@ -132,14 +132,21 @@ namespace Coordinate
                                 double dbd = Math.Sqrt(Math.Pow(bdx, 2) + Math.Pow(bdy, 2) + Math.Pow(bdz, 2));
                                 double l2r = Math.Sqrt(Math.Pow(lhx-rhx, 2) + Math.Pow(lhy-rhy, 2) + Math.Pow(lhz-rhz, 2));
 
-                                // update auxiliary textblock
-                                txtDelta.Text = string.Format("X:{0:0.00} Y:{1:0.00} Z:{2:0.00}m", leftHand.Position.X - shoulderCenter.Position.X, leftHand.Position.Y - shoulderCenter.Position.Y, leftHand.Position.Z - shoulderCenter.Position.Z);
-                                txtDistanceLeftHand.Text = dlh.ToString().Substring(0,4);
-                                txtDistanceRightHand.Text = drh.ToString().Substring(0, 4);
-                                txtDistanceBody.Text = dbd.ToString().Substring(0, 4);
-                                txtDistanceL2R.Text = l2r.ToString().Substring(0, 4);
-                                
 
+
+                                try
+                                {
+
+
+                                    // update auxiliary textblock
+                                    txtDelta.Text = string.Format("X:{0:0.00} Y:{1:0.00} Z:{2:0.00}m", leftHand.Position.X - shoulderCenter.Position.X, leftHand.Position.Y - shoulderCenter.Position.Y, leftHand.Position.Z - shoulderCenter.Position.Z);
+                                    txtDistanceLeftHand.Text = dlh.ToString().Substring(0, 4);
+                                    txtDistanceRightHand.Text = drh.ToString().Substring(0, 4);
+                                    txtDistanceBody.Text = dbd.ToString().Substring(0, 4);
+                                    txtDistanceL2R.Text = l2r.ToString().Substring(0, 4);
+                                }
+                                catch (Exception eeeee)
+                                { }
 
 
                                 // update circle's position
